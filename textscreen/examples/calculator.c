@@ -27,7 +27,7 @@ typedef enum
     OP_PLUS,
     OP_MINUS,
     OP_MULT,
-    OP_DIV,
+    OP_DIV
 } operator_t;
 
 int starting_input = 0;

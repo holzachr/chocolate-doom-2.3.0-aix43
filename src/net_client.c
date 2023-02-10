@@ -54,7 +54,7 @@ typedef enum
 
     // in game
 
-    CLIENT_STATE_IN_GAME,
+    CLIENT_STATE_IN_GAME
 
 } net_clientstate_t;
 

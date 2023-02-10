@@ -54,7 +54,7 @@ typedef enum
     GS_LEVEL,
     GS_UNKNOWN,
     GS_FINALE,
-    GS_DEMOSCREEN,
+    GS_DEMOSCREEN
 } gamestate_t;
 
 typedef enum
@@ -284,7 +284,7 @@ typedef enum
     INVISTICS	= (55*TICRATE), // villsa [STRIFE] changed from 60 to 55
     IRONTICS	= (80*TICRATE), // villsa [STRIFE] changed from 60 to 80
     PMUPTICS    = (80*TICRATE), // villsa [STRIFE]
-    TARGTICS    = (160*TICRATE),// villsa [STRIFE]
+    TARGTICS    = (160*TICRATE) // villsa [STRIFE]
     
 } powerduration_t;
 

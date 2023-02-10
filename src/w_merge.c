@@ -34,7 +34,7 @@ typedef enum
 { 
     SECTION_NORMAL, 
     SECTION_FLATS, 
-    SECTION_SPRITES,
+    SECTION_SPRITES
 } section_t;
 
 typedef struct

@@ -61,7 +61,7 @@ typedef enum
 
     // in a game
 
-    SERVER_IN_GAME,
+    SERVER_IN_GAME
 } net_server_state_t;
 
 typedef struct

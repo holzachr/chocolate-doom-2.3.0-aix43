@@ -85,7 +85,7 @@ typedef enum
     TXT_COLOR_BRIGHT_RED,
     TXT_COLOR_BRIGHT_MAGENTA,
     TXT_COLOR_YELLOW,
-    TXT_COLOR_BRIGHT_WHITE,
+    TXT_COLOR_BRIGHT_WHITE
 } txt_color_t;
 
 // Modifier keys.

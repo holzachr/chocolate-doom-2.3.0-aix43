@@ -29,7 +29,7 @@ typedef enum
 {
     OPL_INIT_NONE,
     OPL_INIT_OPL2,
-    OPL_INIT_OPL3,
+    OPL_INIT_OPL3
 } opl_init_result_t;
 
 typedef enum

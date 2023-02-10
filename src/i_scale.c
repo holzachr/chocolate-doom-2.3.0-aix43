@@ -427,7 +427,7 @@ void I_ResetScaleTables(byte *palette)
 // screen mode.
 //
 
-static inline void WriteBlendedLine1x(byte *dest, byte *src1, byte *src2, 
+static void WriteBlendedLine1x(byte *dest, byte *src1, byte *src2, 
                                byte *stretch_table)
 {
     int x;
@@ -500,7 +500,7 @@ screen_mode_t mode_stretch_1x = {
     true,
 };
 
-static inline void WriteLine2x(byte *dest, byte *src)
+static void WriteLine2x(byte *dest, byte *src)
 {
     int x;
 
@@ -513,7 +513,7 @@ static inline void WriteLine2x(byte *dest, byte *src)
     }
 }
 
-static inline void WriteBlendedLine2x(byte *dest, byte *src1, byte *src2, 
+static void WriteBlendedLine2x(byte *dest, byte *src1, byte *src2, 
                                byte *stretch_table)
 {
     int x;
@@ -613,7 +613,7 @@ screen_mode_t mode_stretch_2x = {
     false,
 };
 
-static inline void WriteLine3x(byte *dest, byte *src)
+static void WriteLine3x(byte *dest, byte *src)
 {
     int x;
 
@@ -627,7 +627,7 @@ static inline void WriteLine3x(byte *dest, byte *src)
     }
 }
 
-static inline void WriteBlendedLine3x(byte *dest, byte *src1, byte *src2, 
+static void WriteBlendedLine3x(byte *dest, byte *src1, byte *src2, 
                                byte *stretch_table)
 {
     int x;
@@ -752,7 +752,7 @@ screen_mode_t mode_stretch_3x = {
     false,
 };
 
-static inline void WriteLine4x(byte *dest, byte *src)
+static void WriteLine4x(byte *dest, byte *src)
 {
     int x;
 
@@ -767,7 +767,7 @@ static inline void WriteLine4x(byte *dest, byte *src)
     }
 }
 
-static inline void WriteBlendedLine4x(byte *dest, byte *src1, byte *src2, 
+static void WriteBlendedLine4x(byte *dest, byte *src1, byte *src2, 
                                byte *stretch_table)
 {
     int x;
@@ -917,7 +917,7 @@ screen_mode_t mode_stretch_4x = {
     false,
 };
 
-static inline void WriteLine5x(byte *dest, byte *src)
+static void WriteLine5x(byte *dest, byte *src)
 {
     int x;
 
@@ -1023,7 +1023,7 @@ screen_mode_t mode_stretch_5x = {
 // 1x squashed scale (256x200)
 //
 
-static inline void WriteSquashedLine1x(byte *dest, byte *src)
+static void WriteSquashedLine1x(byte *dest, byte *src)
 {
     int x;
 
@@ -1095,7 +1095,7 @@ screen_mode_t mode_squash_1x = {
 #define DRAW_PIXEL2 \
       *dest++ = *dest2++ = c;
 
-static inline void WriteSquashedLine2x(byte *dest, byte *src)
+static void WriteSquashedLine2x(byte *dest, byte *src)
 {
     byte *dest2;
     int x, c;
@@ -1190,7 +1190,7 @@ screen_mode_t mode_squash_2x = {
 #define DRAW_PIXEL3 \
         *dest++ = *dest2++ = *dest3++ = c
 
-static inline void WriteSquashedLine3x(byte *dest, byte *src)
+static void WriteSquashedLine3x(byte *dest, byte *src)
 {
     byte *dest2, *dest3;
     int x, c;
@@ -1272,7 +1272,7 @@ screen_mode_t mode_squash_3x = {
 #define DRAW_PIXEL4 \
         *dest++ = *dest2++ = *dest3++ = *dest4++ = c;
       
-static inline void WriteSquashedLine4x(byte *dest, byte *src)
+static void WriteSquashedLine4x(byte *dest, byte *src)
 {
     int x;
     int c;

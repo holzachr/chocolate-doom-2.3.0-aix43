@@ -105,7 +105,7 @@ static int startup_delay = 1000;
 static int usegamma = 0;
 
 int graphical_startup = 1;
-int show_endoom = 1;
+int show_endoom = 0;
 int show_diskicon = 1;
 int png_screenshots = 0;
 

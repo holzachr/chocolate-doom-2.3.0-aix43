@@ -35,7 +35,7 @@ typedef enum
 
     MIDI_EVENT_SYSEX           = 0xf0,
     MIDI_EVENT_SYSEX_SPLIT     = 0xf7,
-    MIDI_EVENT_META            = 0xff,
+    MIDI_EVENT_META            = 0xff
 } midi_event_type_t;
 
 typedef enum
@@ -50,7 +50,7 @@ typedef enum
     MIDI_CONTROLLER_MAIN_VOLUME     = 0x7,
     MIDI_CONTROLLER_PAN             = 0xa,
 
-    MIDI_CONTROLLER_ALL_NOTES_OFF   = 0x7b,
+    MIDI_CONTROLLER_ALL_NOTES_OFF   = 0x7b
 } midi_controller_t;
 
 typedef enum
@@ -72,7 +72,7 @@ typedef enum
     MIDI_META_SMPTE_OFFSET          = 0x54,
     MIDI_META_TIME_SIGNATURE        = 0x58,
     MIDI_META_KEY_SIGNATURE         = 0x59,
-    MIDI_META_SEQUENCER_SPECIFIC    = 0x7f,
+    MIDI_META_SEQUENCER_SPECIFIC    = 0x7f
 } midi_meta_event_type_t;
 
 typedef struct

@@ -33,6 +33,7 @@
 #pragma pack(push, 1)
 #endif
 
+#pragma pack(1)
 typedef struct
 {
     byte chunk_id[4];
@@ -51,6 +52,7 @@ typedef struct
 #ifdef _MSC_VER
 #pragma pack(pop)
 #endif
+#pragma pack(4)
 
 typedef struct
 {

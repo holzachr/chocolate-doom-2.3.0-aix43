@@ -65,7 +65,7 @@ typedef enum
 {
     OPLMODE_OPL2,
     OPLMODE_OPL3,
-    NUM_OPLMODES,
+    NUM_OPLMODES
 } oplmode_t;
 
 static char *opltype_strings[] =

@@ -26,7 +26,7 @@ typedef enum
 {
     THREAD_STATE_STOPPED,
     THREAD_STATE_RUNNING,
-    THREAD_STATE_STOPPING,
+    THREAD_STATE_STOPPING
 } thread_state_t;
 
 static SDL_Thread *timer_thread = NULL;

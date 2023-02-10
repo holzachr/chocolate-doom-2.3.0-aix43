@@ -51,7 +51,7 @@ typedef enum
     // a valid connection for a few seconds until we are sure that
     // the other end has successfully disconnected as well.
 
-    NET_CONN_STATE_DISCONNECTED_SLEEP,
+    NET_CONN_STATE_DISCONNECTED_SLEEP
 
 } net_connstate_t;
 
@@ -69,7 +69,7 @@ typedef enum
 
     // Timeout (no data received in a long time)
 
-    NET_DISCONNECT_TIMEOUT,
+    NET_DISCONNECT_TIMEOUT
 
 } net_disconnect_reason_t;
 

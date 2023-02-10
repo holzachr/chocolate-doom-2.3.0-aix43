@@ -23,7 +23,7 @@
 // Visual C++, we need to include the win_opendir module.
 #if defined(_MSC_VER)
 #include <win_opendir.h>
-#elif defined(__GNUC__) || defined(POSIX)
+#elif defined(__GNUC__) || defined(POSIX) || defined(_AIX)
 #include <dirent.h>
 #else
 #error Need an include for dirent.h!

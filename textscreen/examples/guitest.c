@@ -28,7 +28,7 @@ enum
 {
     RADIO_VALUE_BADGER,
     RADIO_VALUE_MUSHROOM,
-    RADIO_VALUE_SNAKE,
+    RADIO_VALUE_SNAKE
 };
 char *extensions[] = { "wad", "lmp", "txt", NULL };
 char *radio_values[] = { "Badger", "Mushroom", "Snake" };

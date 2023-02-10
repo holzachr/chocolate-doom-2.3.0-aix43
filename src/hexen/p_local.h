@@ -318,7 +318,7 @@ typedef enum
 {
     PODOOR_NONE,
     PODOOR_SLIDE,
-    PODOOR_SWING,
+    PODOOR_SWING
 } podoortype_t;
 
 typedef struct

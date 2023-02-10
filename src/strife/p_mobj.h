@@ -218,7 +218,7 @@ typedef enum
     MF_COLORSWAP3       = 0x40000000,
 
     // villsa [STRIFE] spectral entity, only damaged by spectral missiles
-    MF_SPECTRAL         = 0x80000000,
+    MF_SPECTRAL         = 0x40000000,
 
     // Player sprites in multiplayer modes are modified
     //  using an internal color lookup table for re-indexing.
